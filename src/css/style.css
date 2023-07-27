@@ -1,0 +1,46 @@
+body {
+    color: #999;
+}
+
+.tablo-container {
+    margin: 0 auto;
+    color: black;
+    width: 480px;
+    height: 180px;
+    display: flex;
+    align-items: stretch;
+}
+
+.tablo-container__frame {
+    width: 240px;
+    height: 160px;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    font-size: 72px;
+}
+
+.field-container {
+    margin: 0 auto;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: url("../img/hammer64.png"),auto;
+}
+
+.cell {
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.active {
+    height: 120px;
+    width: 120px;
+    background-image: url(../img/goblin.png);
+}
